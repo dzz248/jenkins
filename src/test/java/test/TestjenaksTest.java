@@ -1,6 +1,6 @@
 package test;
 
-import org.junit.Assert;
+import junit.framework.TestCase;
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
@@ -16,8 +16,10 @@ public class TestjenaksTest extends TestCase {
 
     @Test
     public void testMethodOne() {
-        Assert.assertTrue(true);
-        System.out.println("OK");
+       if(true){
+           System.out.println("OK");
+
+       }
 
     }
 
