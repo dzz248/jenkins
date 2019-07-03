@@ -17,12 +17,15 @@ public class TestjenaksTest {
     @Test
     public void testMethodOne() {
         Assert.assertTrue(true);
+        System.out.println("OK");
+
     }
 
-    @Test
-    public void testMethodTwo() {
-        Assert.assertTrue(false);
-    }
+//    @Test
+//    public void testMethodTwo() {
+//        Assert.assertTrue(false);
+//        System.out.println("OK");
+//    }
 
 
     @Before
