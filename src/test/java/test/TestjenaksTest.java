@@ -11,7 +11,7 @@ import org.junit.After;
  * @author <Authors name>
  * @version 1.0
  */
-public class TestjenaksTest {
+public class TestjenaksTest extends TestCase {
 
 
     @Test
